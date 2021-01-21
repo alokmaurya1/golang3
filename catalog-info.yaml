@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: golang3
+  description: golang3
+  annotations: 
+    github.com/project-slug: alokmaurya1/golang3
+    backstage.io/github-actions-id: alokmaurya1/golang3
+spec:
+  type: service
+  lifecycle: experimental
+  owner: alokmaurya1
